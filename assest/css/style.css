@@ -1,0 +1,303 @@
+*{padding:0; margin:0;}
+body{
+  font-family: play;
+}
+.colorControl{background: #333;overflow: hidden;min-height: 581px;}
+#searchresults {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9999;
+}
+.searchUl {
+  margin: 0;
+  width: 163px;
+}
+.searchUl > li {
+  border-radius: 0 !important;
+  padding: 0;
+  border: 1px solid #eee;
+  border-top: none;
+}
+.searchUl > li > a {
+  background: #fbfbfb none repeat scroll 0 0;
+  color: #222;
+  display: block;
+  padding: 5px;
+  transition: all 0.6s ease 0s;
+}
+.searchUl > li > a:hover {text-decoration: none;background: #31B0D5;color: #fff;}
+.leftSidebar{background: #F8F8F8;padding: 0;}
+.mynavbarS {
+  background: #222222 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  margin: 0;
+}
+.dropdown>a{color: #fff !important;}
+.mynavbarS .navbar-nav > .open > a, .mynavbarS .navbar-nav > .open > a:hover, .mynavbarS .navbar-nav > .open > a:focus {
+  background-color: #000;
+}
+.navbar-brand {
+  display: block;
+  height: 50px !important;
+  overflow: hidden;
+  padding: 2px 10px 1px;
+}
+.navbar-brand > img {
+  height: 100%;
+  max-width: 100%;
+}
+.navbar-brand > strong {
+  color: #fff;
+  font-size: 24px;
+  padding-left: 13px;
+}
+
+
+
+/*components*/
+.components {
+  background: #333 none repeat scroll 0 0;
+  height: auto;
+}
+.components > a {
+  background: #222 none repeat scroll 0 0;
+  border-bottom: 1px solid #333;
+  color: #fff;
+  display: block;
+  outline: 0 none;
+  padding: 10px 0 10px 10px;
+  transition: all 0.5s ease 0s;
+}
+.components > a > strong {
+  color: #9d9d9d;
+}
+.dasactive{
+  background: #000 !important;
+}
+
+
+.components > .panel-group {
+  margin: 0;
+}
+.components > .panel-group > .panel-deicofontult {
+  border: medium none;
+  border-radius: 0;
+}
+.components > .panel-group > .panel-deicofontult > a {
+  background: #222 none repeat scroll 0 0;
+  border-bottom: 1px solid #333;
+  color: #9d9d9d;
+  display: block;
+  outline: 0 none;
+  padding: 10px 0 10px 10px;
+  transition: all 0.5s ease 0s;
+}
+.components > .panel-group > .panel-deicofontult > a > strong {
+  color: #9d9d9d;
+}
+.icon_pad {
+  padding: 3px 10px 0 0;
+  color: #fff;
+}
+.components >.panel-group>.panel-deicofontult>.panel-collapse{}
+.components > .panel-group > .panel-deicofontult > .panel-collapse > .panel-body {
+  background: #222 none repeat scroll 0 0;
+  padding: 0 0 0 32px;
+}
+
+.sidebar_ul {
+  list-style: outside none none;
+  margin: 0;
+}
+.sidebar_ul>li{}
+.sidebar_ul > li > a {
+  background: #222;
+  border-bottom: 1px solid #333;
+  color: #9d9d9d;
+  display: block;
+  outline: 0 none;
+  padding: 8px 0 8px 10px;
+  transition: 0.5s;
+}
+
+.sidebar_ul > li > a:hover, .components > a:hover, .components > .panel-group > .panel-deicofontult > a:hover{
+  background: #000;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+
+
+/*##### rightSidebar #####*/
+.rightSidebar {
+  padding: 15px;
+  overflow: hidden;
+}
+.passInputGroup{
+  padding: 10px 0;
+}
+.passInputGroup>.input-group{
+  padding: 5px 0;
+}
+.modal-header{
+  background: #31B0D5;
+}
+
+
+
+/*components */
+
+/*components2*/
+.components2{}
+.components2 > .searchStyle {
+  border: 1px solid #ddd;
+  margin: 16px;
+  padding: 12px;
+}
+.components2 > h4 {
+  background: #222 none repeat scroll 0 0;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0 13px 10px;
+  border-radius: 0;
+}
+.components2 > a {
+  background: rgba(0,144,36, 0.70) none repeat scroll 0 0;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  display: block;
+  outline: 0 none;
+  padding: 10px 0 10px 10px;
+  transition: all 0.5s ease 0s;
+}
+.components2 > a > strong {
+  color: #fff;
+}
+
+
+.components2 > .panel-group {
+  margin: 0;
+}
+.components2 > .panel-group > .panel-deicofontult {
+  border: medium none;
+  border-radius: 0;
+}
+.components2 > .panel-group > .panel-deicofontult > a {
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  display: block;
+  outline: 0 none;
+  padding: 10px 0 10px 10px;
+  background: rgba(0,144,36, 0.70) none repeat scroll 0 0;
+  transition: 0.5s;
+}
+.components2 > .panel-group > .panel-deicofontult > a > strong {
+  color: #9d9d9d;
+}
+.icon_pad {
+  padding: 3px 10px 0 0;
+  color: #9d9d9d;
+}
+.components2 >.panel-group>.panel-deicofontult>.panel-collapse{}
+.components2 > .panel-group > .panel-deicofontult > .panel-collapse > .panel-body {
+  background: rgba(0,144,36, 0.70) none repeat scroll 0 0;
+  padding: 0 0 0 32px;
+}
+
+.sidebar_ul2 {
+  list-style: outside none none;
+  margin: 0;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+.sidebar_ul2>li{
+  background: #333;
+  color: #fff;
+  display: block;
+  outline: 0 none;
+  padding: 8px 0 8px 10px;
+  transition: 0.5s;
+}
+.sidebar_ul2 > li:hover{
+  background: #00904C;
+  text-decoration: none;
+  outline: 0 none;
+}
+.components2 > a:hover, .components2 > .panel-group > .panel-deicofontult > a:hover{
+  background: #333;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+
+
+.lsitul {
+  list-style: outside none none;
+  margin: 10px 0;
+  overflow: hidden;
+  padding: 0 0 0 10px;
+}
+.listCheck {
+  float: left;
+  padding-right: 15px;
+}
+
+.col-xs-12.bac {
+  background: #eee none repeat scroll 0 0;
+}
+select{border-radius: 0 !important;}
+select>option{
+  border-bottom: 1px solid #fff;
+  padding: 7px 10px;
+  border-radius: 0 !important;
+}
+input,textarea{border-radius: 0 !important;}
+.form-group.imageform > input {
+  border: 1px solid #ddd;
+  height: 35px;
+  padding: 0 10px;
+  width: 100%;
+}
+.form-group.checkform {
+  border: 1px solid #ddd;
+  padding: 4px 5px;
+}
+.paginations>a,.paginations>strong{border:1px solid #eee;padding:8px 10px;transition: 0.5s;outline: 0 none;}
+.paginations>a:hover,.paginations>strong:hover{background: #eee;text-decoration: none;}
+/*dash module*/
+.dashModule {
+  text-align: center;
+}
+.dashModule > a {
+  background: #222222 none repeat scroll 0 0;
+  border-radius: 4px;
+  display: block;
+  height: 200px;
+  margin: 15px 0;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+}
+.dashModule>a:hover{
+    text-decoration: none;
+    background: #000000;
+}
+.dashModule > a > i {
+  color: #fff;
+  display: inline-block;
+  font-size: 95px;
+  padding: 40px 0 0;
+}
+.dashModule > a:hover > i{
+    color: #48A7DF;
+}
+.dashModule > a > h3 {
+  color: #ddd;
+}
+.usericon {
+  color: #31b0d5;
+  display: block;
+  font-size: 70px;
+  overflow: hidden;
+}
